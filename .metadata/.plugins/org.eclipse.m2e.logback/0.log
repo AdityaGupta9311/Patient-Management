@@ -26,3 +26,111 @@
 2025-05-23 17:17:24,509 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-05-23 17:17:24,520 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
 2025-05-23 17:21:57,044 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-23 17:23:43,315 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-23 17:46:54,357 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-23 17:46:54,395 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 17:46:54,401 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 17:47:12,721 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-23 17:47:12,737 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 17:47:12,750 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 17:51:37,413 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2025-05-23 17:51:37,507 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@2c7eae8a{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@23b9500f{STARTED}}
+2025-05-23 17:51:37,508 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-05-23 17:51:37,548 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@49272435{HTTP/1.1, (http/1.1)}{127.0.0.1:59288}
+2025-05-23 17:51:37,574 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@5e7aa894{STARTING}[12.0.6,sto=0] @1709571ms
+2025-05-23 17:58:16,184 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-23 17:58:16,215 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 17:58:16,224 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 17:58:17,511 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@5e7aa894{STOPPING}[12.0.6,sto=0]
+2025-05-23 17:58:17,516 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@49272435{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-05-23 17:59:42,178 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-23 18:02:43,361 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2025-05-23 18:02:43,451 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@1523cde6{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@7da9fe25{STARTED}}
+2025-05-23 18:02:43,452 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-05-23 18:02:43,506 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@5d4bf2{HTTP/1.1, (http/1.1)}{127.0.0.1:59414}
+2025-05-23 18:02:43,529 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@2e34143c{STARTING}[12.0.6,sto=0] @262179ms
+2025-05-23 18:03:59,893 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-23 18:03:59,917 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:03:59,928 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 18:04:01,736 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@2e34143c{STOPPING}[12.0.6,sto=0]
+2025-05-23 18:04:01,740 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@5d4bf2{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-05-23 18:04:51,308 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-23 18:05:10,733 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2025-05-23 18:05:10,836 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@1f7e97a8{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@36397d31{STARTED}}
+2025-05-23 18:05:10,837 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-05-23 18:05:10,882 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@11de1d3b{HTTP/1.1, (http/1.1)}{127.0.0.1:59433}
+2025-05-23 18:05:10,905 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@c862ea2{STARTING}[12.0.6,sto=0] @59890ms
+2025-05-23 18:11:28,301 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-23 18:11:28,366 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:11:28,377 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 18:14:11,928 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-23 18:14:11,940 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:14:11,948 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 18:16:28,178 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.pm:Patient-Services:0.0.1-SNAPSHOT @ C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\pom.xml.
+2025-05-23 18:16:29,361 [Worker-6: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/2.3.232/h2-2.3.232.pom
+2025-05-23 18:16:30,540 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:16:30,542 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:16:30,551 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 18:16:31,241 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/2.3.232/h2-2.3.232-sources.jar
+2025-05-23 18:16:31,246 [Worker-19: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.h2database:h2:2.3.232
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.h2database:h2:jar:sources:2.3.232
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-23 18:16:41,843 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-23 18:16:42,413 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.pm:Patient-Services:0.0.1-SNAPSHOT @ C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\pom.xml.
+2025-05-23 18:16:43,682 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Patient-Services/src/main/java
+2025-05-23 18:16:43,689 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Patient-Services/src/main/resources
+2025-05-23 18:16:43,692 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Patient-Services/src/main/resources
+2025-05-23 18:16:43,694 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Patient-Services/src/test/java
+2025-05-23 18:16:43,696 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Patient-Services/src/test/resources
+2025-05-23 18:16:44,309 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-05-23 18:16:44,527 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/2.3.232/h2-2.3.232-javadoc.jar
+2025-05-23 18:16:44,531 [Worker-16: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.h2database:h2:2.3.232
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.h2database:h2:jar:javadoc:2.3.232
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-23 18:16:44,587 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-23 18:16:44,622 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:16:44,628 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 18:25:42,893 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-23 18:25:42,925 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:25:42,936 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 18:39:21,649 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:39:21,651 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:39:21,657 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 18:40:16,505 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:40:16,508 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-23 18:40:16,514 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-23 18:40:29,856 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@c862ea2{STOPPING}[12.0.6,sto=0]
+2025-05-23 18:40:29,869 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@11de1d3b{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-05-23 18:41:04,647 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
