@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.pm.patientservices.dto.PatientResponseDTO;
-import com.pm.patientservices.mapper.PatientMapper;
 import com.pm.patientservices.model.Patient;
 import com.pm.patientservices.repository.PatientRepository;
 
@@ -20,12 +19,7 @@ public class PatientService {
 		this.patientRepository = patientRepository;
 	}
 	
-	public List<PatientResponseDTO> getPatients() {
-		List<Patient> patients = patientRepository.findAll();
-		
-		List<PatientResponseDTO> patientResponseDTOs = patients.stream()
-				.map(patient -> PatientMapper.toDTO(patient)).toList();
-		
-		return patientResponseDTOs;
-	}
+//	public List<PatientResponseDTO> getPatients() {
+//		List<Patient> patients = patientRepository.findAll();
+//	}
 }
