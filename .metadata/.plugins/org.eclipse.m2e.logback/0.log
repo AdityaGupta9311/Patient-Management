@@ -183,3 +183,30 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.h2databas
 2025-05-24 17:17:57,000 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-05-24 17:17:57,018 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-05-24 17:17:57,024 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 17:21:40,518 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 17:21:40,542 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 17:21:40,553 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 21:25:21,875 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:25:21,887 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:25:21,895 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 21:27:55,776 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:27:55,787 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:27:55,799 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 21:32:07,077 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:32:07,088 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:32:07,095 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 21:35:19,718 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:35:19,731 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:35:19,739 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 21:35:28,190 [Worker-36: Launching Patient-Services - PatientServicesApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:35:28,202 [Worker-36: Launching Patient-Services - PatientServicesApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:35:28,210 [Worker-36: Launching Patient-Services - PatientServicesApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 21:36:53,113 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:36:53,124 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:36:53,130 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 21:37:28,952 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:37:28,958 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:37:28,963 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 21:39:21,324 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:39:21,335 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:39:21,342 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources

@@ -20,7 +20,7 @@ public class Patient {
 
 	@NotNull
 	private String name;
-
+	
 	@NotNull
 	private String address;
 
@@ -40,23 +40,14 @@ public class Patient {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Patient(UUID id, @NotNull String name, @NotNull String address, @NotNull @Email String email,
-			@NotNull LocalDate dateOfBirth, @NotNull LocalDate registeredDate) {
+	public Patient(UUID id, @NotNull String name, @NotNull @Email String email, @NotNull LocalDate dateOfBirth,
+			@NotNull LocalDate registeredDate) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.address = address;
 		this.email = email;
 		this.dateOfBirth = dateOfBirth;
 		this.registeredDate = registeredDate;
-	}
-
-	public String getAddress() {
-		return address;
-	}
-
-	public void setAddress(String address) {
-		this.address = address;
 	}
 
 	public UUID getId() {

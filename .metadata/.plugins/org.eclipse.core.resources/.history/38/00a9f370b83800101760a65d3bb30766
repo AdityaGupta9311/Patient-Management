@@ -2,18 +2,18 @@ package com.pm.patientservices.dto;
 
 public class PatientResponseDTO {
 
-	private String id;
+	private String idString;
 	private String name;
 	private String email;
 	private String address;
 	private String dateOfBirth;
 
-	public String getId() {
-		return id;
+	public String getIdString() {
+		return idString;
 	}
 
-	public void setId(String id) {
-		this.id = id;
+	public void setIdString(String idString) {
+		this.idString = idString;
 	}
 
 	public String getName() {
