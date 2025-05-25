@@ -30,7 +30,6 @@ public class PatientService {
 	}
 	
 	public PatientResponseDTO createPatient(PatientRepuestDTO patientRepuestDTO) {
-		Patient newPatient = patientRepository.save(PatientMapper.toModal(patientRepuestDTO));
-		return PatientMapper.toDTO(newPatient);
+		Patient newPatient = patientRepository.save(null);
 	}
 }
