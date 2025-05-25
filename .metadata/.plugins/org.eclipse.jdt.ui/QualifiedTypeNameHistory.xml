@@ -6,6 +6,18 @@
     <fullyQualifiedTypeName name="jakarta.validation.constraints.Email"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.AssertFalse.List"/>
+    <fullyQualifiedTypeName name="com.pm.patientservices.service.PatientService"/>
+    <fullyQualifiedTypeName name="com.pm.patientservices.repository.PatientRepository"/>
+    <fullyQualifiedTypeName name="com.pm.patientservices.model.Patient"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.pm.patientservices.dto.PatientResponseDTO"/>
+    <fullyQualifiedTypeName name="com.pm.patientservices.mapper.PatientMapper"/>
 </qualifiedTypeNameHistroy>

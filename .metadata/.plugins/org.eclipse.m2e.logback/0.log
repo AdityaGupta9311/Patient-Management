@@ -210,3 +210,33 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.h2databas
 2025-05-24 21:39:21,324 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-05-24 21:39:21,335 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-05-24 21:39:21,342 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 21:59:43,310 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:59:43,345 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-24 21:59:43,352 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-24 22:01:01,356 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@b6abaa{STOPPING}[12.0.6,sto=0]
+2025-05-24 22:01:01,365 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@2beb07db{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-05-25 18:48:35,443 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-25 18:48:36,108 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2025-05-25 18:50:13,865 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 18:50:13,888 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 18:50:13,896 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-25 18:56:33,520 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 18:56:33,557 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 18:56:33,574 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-25 18:56:40,850 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2025-05-25 18:56:40,948 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@3da7f140{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@d0d21dc{STARTED}}
+2025-05-25 18:56:40,949 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-05-25 18:56:40,994 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@f679033{HTTP/1.1, (http/1.1)}{127.0.0.1:53001}
+2025-05-25 18:56:41,022 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@14cd6613{STARTING}[12.0.6,sto=0] @528238ms
+2025-05-25 19:00:36,387 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 19:00:36,401 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 19:00:36,409 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-25 19:04:02,999 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 19:04:03,011 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 19:04:03,020 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-25 19:04:06,985 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 19:04:06,999 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 19:04:07,009 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
+2025-05-25 19:04:20,361 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 19:04:20,372 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-25 19:04:20,384 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Aadi\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Patient Management\Patient-Services\src\test\resources
