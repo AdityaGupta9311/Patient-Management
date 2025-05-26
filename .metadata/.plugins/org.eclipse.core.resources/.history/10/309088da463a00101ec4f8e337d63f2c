@@ -31,7 +31,7 @@ public class PatientService {
 	public PatientResponseDTO createPatient(PatientRepuestDTO patientRepuestDTO) {
 		if (patientRepository.existsByEmail(patientRepuestDTO.getEmail())) {
 			throw new EmailAlreadyExistsException(
-					"A Patient with this Email Already Exits " + patientRepuestDTO.getEmail());
+					"A Patient with this Email Already Exits" + patientRepuestDTO.getEmail());
 		}
 		Patient newPatient = patientRepository.save(PatientMapper.toModal(patientRepuestDTO));
 		return PatientMapper.toDTO(newPatient);

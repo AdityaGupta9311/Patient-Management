@@ -18,12 +18,4 @@ public class GlobalExceptionHandler {
 		ex.getBindingResult().getFieldErrors().forEach(error -> erros.put(error.getField(), error.getDefaultMessage()));
 		return ResponseEntity.badRequest().body(erros);
 	}
-	
-	@ExceptionHandler(EmailAlreadyExistsException.class)
-	public ResponseEntity<Map<String, String>> handleEmailAlreadyExistsException(EmailAlreadyExistsException ex){
-		Map<String, String> erros = new HashMap<>();
-		erros.put("message", "Email Already Exits");
-		return ResponseEntity.badRequest().body(erros);
-		
-	}
 }

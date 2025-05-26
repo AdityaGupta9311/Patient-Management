@@ -21,6 +21,7 @@ public class GlobalExceptionHandler {
 	
 	@ExceptionHandler(EmailAlreadyExistsException.class)
 	public ResponseEntity<Map<String, String>> handleEmailAlreadyExistsException(EmailAlreadyExistsException ex){
+		log
 		Map<String, String> erros = new HashMap<>();
 		erros.put("message", "Email Already Exits");
 		return ResponseEntity.badRequest().body(erros);
