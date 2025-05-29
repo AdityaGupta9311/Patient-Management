@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  patient-db:
+    image: postgres:15
+    container_name: patient-db
+    restart: always
+    environment:
+      POSTGRES_USER: aditya
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: patientdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  patient-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: patient-service
+    depends_on:
+      - patient-db
+    ports:
+      - "8000:8000"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://patient-db:5432/patientdb
+      SPRING_DATASOURCE_USERNAME: aditya
+      SPRING_DATASOURCE_PASSWORD: root
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.PostgreSQLDialect
+    networks:
+      - backend
+
+volumes:
+  pgdata:
+
+networks:
+  backend:
