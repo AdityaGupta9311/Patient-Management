@@ -4,13 +4,13 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.pm.patientservices.dto.PatientRepuestDTO;
 import com.pm.patientservices.dto.PatientResponseDTO;
 import com.pm.patientservices.exception.EmailAlreadyExistsException;
 import com.pm.patientservices.exception.PatientNotFoundException;
+import com.pm.patientservices.grpc.BillingServiceGrpcClient;
 import com.pm.patientservices.mapper.PatientMapper;
 import com.pm.patientservices.model.Patient;
 import com.pm.patientservices.repository.PatientRepository;
@@ -18,11 +18,12 @@ import com.pm.patientservices.repository.PatientRepository;
 @Service
 public class PatientService {
 
-	@Autowired
-	private PatientRepository patientRepository;
+	private final PatientRepository patientRepository;
+	private final BillingServiceGrpcClient billingServiceGrpcClient;
 
-	public PatientService(PatientRepository patientRepository) {
+	public PatientService(PatientRepository patientRepository, BillingServiceGrpcClient billingServiceGrpcClient) {
 		this.patientRepository = patientRepository;
+		this.billingServiceGrpcClient = billingServiceGrpcClient;
 	}
 
 	public List<PatientResponseDTO> getPatients() {
@@ -41,6 +42,7 @@ public class PatientService {
 		}
 
 		Patient newPatient = patientRepository.save(PatientMapper.toModal(patientRepuestDTO));
+		billingServiceGrpcClient.createBillingAccount(newPatient.getId().toString(), newPatient.getName(), newPatient.getEmail());
 		return PatientMapper.toDTO(newPatient);
 	}
 
@@ -63,7 +65,7 @@ public class PatientService {
 		return PatientMapper.toDTO(updatePatient);
 
 	}
-	
+
 	public void deletePatient(UUID id) {
 		patientRepository.deleteById(id);
 	}
