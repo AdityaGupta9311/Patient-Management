@@ -1,0 +1,25 @@
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build and dependency folders
+target/
+build/
+
+# Maven/Gradle
+.mvn/
+.gradle/
+
+# Other
+*.iml
+*.class
+
+# Optional: ignore Docker volumes if mapped locally
+pgdata/
