@@ -1,5 +1,0 @@
-package com.pm.patientservices.repository;
-
-public interface PatientRepository {
-
-}

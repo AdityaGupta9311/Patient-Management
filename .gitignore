@@ -1,6 +1,7 @@
 # IDEs
 .vscode/
 .idea/
+.metadata
 
 # OS
 .DS_Store

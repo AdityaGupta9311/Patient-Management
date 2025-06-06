@@ -22,3 +22,4 @@ EXPOSE 8001
 EXPOSE 9001
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
+        
