@@ -17,7 +17,7 @@ services:
       - internal
 
   patient-service:
-    container_name: patient-service:latest
+    container_name: patient-service
     build: .
     ports:
       - "8000:8000"
@@ -27,6 +27,8 @@ services:
       SPRING_DATASOURCE_PASSWORD: root
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SPRING_SQL_INIT_MODE: always
+      BILLING_SERVICE_ADDRESS: billing-service
+      BILLING|_SERVICE_GRPC_PORT: 9001
     depends_on:
       - patient-db
     networks:
