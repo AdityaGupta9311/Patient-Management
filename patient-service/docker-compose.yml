@@ -2,7 +2,8 @@ version: '3.8'
 
 services:
   patient-db:
-    image: postgres:15
+    container_name: patient-service-db
+    image: postgres:latest
     restart: always
     environment:
       POSTGRES_DB: patientdb
@@ -11,9 +12,12 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - patient_pgdata:/var/lib/postgresql/data
+    networks:
+      - internal
 
   patient-service:
+    container_name: patient-service:latest
     build: .
     ports:
       - "8000:8000"
@@ -21,8 +25,17 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://patient-db:5432/patientdb
       SPRING_DATASOURCE_USERNAME: aditya
       SPRING_DATASOURCE_PASSWORD: root
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_SQL_INIT_MODE: always
     depends_on:
       - patient-db
+    networks:
+      - internal
 
 volumes:
-  pgdata:
+  patient_pgdata:
+
+
+networks:
+  internal:
+    external: true
