@@ -28,7 +28,7 @@ services:
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SPRING_SQL_INIT_MODE: always
       BILLING_SERVICE_ADDRESS: billing-service
-      BILLING|_SERVICE_GRPC_PORT: 9001
+      BILLING_SERVICE_GRPC_PORT: 9001
     depends_on:
       - patient-db
     networks:

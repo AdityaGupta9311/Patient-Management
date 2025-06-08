@@ -42,7 +42,8 @@ public class PatientService {
 		}
 
 		Patient newPatient = patientRepository.save(PatientMapper.toModal(patientRepuestDTO));
-		billingServiceGrpcClient.createBillingAccount(newPatient.getId().toString(), newPatient.getName(), newPatient.getEmail());
+		billingServiceGrpcClient.createBillingAccount(newPatient.getId().toString(), newPatient.getName(),
+				newPatient.getEmail());
 		return PatientMapper.toDTO(newPatient);
 	}
 
@@ -63,7 +64,7 @@ public class PatientService {
 
 		Patient updatePatient = patientRepository.save(patient);
 		return PatientMapper.toDTO(updatePatient);
-
+		
 	}
 
 	public void deletePatient(UUID id) {
