@@ -32,5 +32,6 @@ public class KafkaProducer {
         } catch (Exception e) {
             log.error("Error sending PatientCreated event: {}", event);
         }
+        log.info("Sending PatientCreated event: {}", event);
     }
 }
