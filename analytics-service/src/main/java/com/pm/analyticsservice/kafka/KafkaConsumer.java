@@ -17,6 +17,8 @@ public class KafkaConsumer {
     public void consumeEvent(byte[] event) {
         try {
             PatientEvent patientEvent = PatientEvent.parseFrom(event);
+            // ... perform any business related to analytics here
+
             log.info("Received Patient Event: [PatientId={},PatientName={},PatientEmail={}]",
                     patientEvent.getPatientId(),
                     patientEvent.getName(),

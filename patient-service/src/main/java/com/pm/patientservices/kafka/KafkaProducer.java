@@ -4,7 +4,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
-
 import com.pm.patientservices.model.Patient;
 
 import patient.events.PatientEvent;
@@ -31,7 +30,7 @@ public class KafkaProducer {
         try {
             kafkaTemplate.send("patient", event.toByteArray());
         } catch (Exception e) {
-            log.error("Error sending PatientCreated event: {}", event); 
+            log.error("Error sending PatientCreated event: {}", event);
         }
     }
 }
