@@ -8,6 +8,7 @@ import com.pm.patientservices.model.Patient;
 
 import patient.events.PatientEvent;
 
+
 @Service
 public class KafkaProducer {
 
@@ -32,6 +33,5 @@ public class KafkaProducer {
         } catch (Exception e) {
             log.error("Error sending PatientCreated event: {}", event);
         }
-        log.info("Sending PatientCreated event: {}", event);
     }
 }

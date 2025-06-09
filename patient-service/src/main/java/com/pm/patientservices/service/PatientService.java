@@ -23,7 +23,6 @@ public class PatientService {
 	private final BillingServiceGrpcClient billingServiceGrpcClient;
 	private final KafkaProducer kafkaProducer;
 
-
 	public PatientService(PatientRepository patientRepository, BillingServiceGrpcClient billingServiceGrpcClient,
 			KafkaProducer kafkaProducer) {
 		this.patientRepository = patientRepository;
@@ -31,14 +30,12 @@ public class PatientService {
 		this.kafkaProducer = kafkaProducer;
 	}
 
-
 	public List<PatientResponseDTO> getPatients() {
 		List<Patient> patients = patientRepository.findAll();
 		List<PatientResponseDTO> patientResponseDTOs = patients.stream().map(patient -> PatientMapper.toDTO(patient))
 				.toList();
 		return patientResponseDTOs;
 	}
-
 
 	public PatientResponseDTO createPatient(PatientRepuestDTO patientRepuestDTO) {
 		if (patientRepository.existsByEmail(patientRepuestDTO.getEmail())) {
@@ -51,7 +48,6 @@ public class PatientService {
 		kafkaProducer.sendEvent(newPatient);
 		return PatientMapper.toDTO(newPatient);
 	}
-
 
 	public PatientResponseDTO updatePatient(UUID id, PatientRepuestDTO patientRepuestDTO) {
 		Patient patient = patientRepository.findById(id)
@@ -70,7 +66,6 @@ public class PatientService {
 		Patient updatePatient = patientRepository.save(patient);
 		return PatientMapper.toDTO(updatePatient);
 	}
-
 
 	public void deletePatient(UUID id) {
 		patientRepository.deleteById(id);
