@@ -8,7 +8,6 @@ import com.pm.patientservices.model.Patient;
 
 import patient.events.PatientEvent;
 
-
 @Service
 public class KafkaProducer {
 
@@ -21,6 +20,7 @@ public class KafkaProducer {
     }
 
     public void sendEvent(Patient patient) {
+        log.info("Patient event sent successfully to topic '{}'");
         PatientEvent event = PatientEvent.newBuilder()
                 .setPatientId(patient.getId().toString())
                 .setName(patient.getName())

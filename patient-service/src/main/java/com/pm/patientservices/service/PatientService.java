@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
-
 import com.pm.patientservices.dto.PatientRepuestDTO;
 import com.pm.patientservices.dto.PatientResponseDTO;
 import com.pm.patientservices.exception.EmailAlreadyExistsException;
